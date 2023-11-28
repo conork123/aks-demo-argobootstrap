@@ -13,5 +13,6 @@ roleRef:
 subjects:
 - kind: Group
   name: {{ $value.groupId }}
+---
 {{ end }}
-{{ end }}
+{{- end }}
