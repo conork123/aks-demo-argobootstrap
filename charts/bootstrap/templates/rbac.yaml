@@ -1,5 +1,6 @@
 {{- range $key, $value := .Values.rbac }}
 {{- $namespace := $value.namespace -}}
+{{- if $value.assignments }}
 {{- range $key, $value :=  $value.assignments }}
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
@@ -14,5 +15,6 @@ subjects:
 - kind: Group
   name: {{ $value.groupId }}
 ---
-{{ end }}
+{{- end }}
+{{- end }}
 {{- end }}
