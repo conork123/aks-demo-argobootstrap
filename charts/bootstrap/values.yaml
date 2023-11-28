@@ -10,17 +10,3 @@ rbac:
       - roleName: view
         groupId: fad53eca2-63a4-451b-8b51-7449e9bbf947
   - namespace: test-aaa
-  - namespace: test-bbb
-  - namespace: test-ccc
-  - namespace: test-ddd
-  - namespace: test-eee
-  - namespace: test-fff
-  - namespace: test-ggg
-  - namespace: test-hhh
-  - namespace: test-iii
-  - namespace: test-jjj
-  - namespace: test-kkk
-  - namespace: test-lll
-  - namespace: test-mmm
-  - namespace: test-nnn
-  - namespace: test-ooo
