@@ -1,7 +1,7 @@
-{{- range $keu, $value := .Values.namespaces }}
+{{- range $key, $value := .Values.rbac }}
 apiVersion: v1
 kind: Namespace
 metadata:
- name: {{ $value }}
+ name: {{ $value.namespace }}
 ---
 {{- end }}
