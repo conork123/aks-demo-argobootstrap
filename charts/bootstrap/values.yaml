@@ -11,29 +11,8 @@ rbac:
         groupId: fad53eca2-63a4-451b-8b51-7449e9bbf947
   - namespace: operations-team-3
   - namespace: operations-team-4
-  - namespace: operations-team-5
-  - namespace: operations-team-6
-  - namespace: operations-team-7
-  - namespace: operations-team-8
-  - namespace: operations-team-9
-  - namespace: operations-team-10
-  - namespace: operations-team-11
-  - namespace: operations-team-12
-  - namespace: operations-team-13
-  - namespace: operations-team-14
-  - namespace: operations-team-15
-  - namespace: operations-team-16
-  - namespace: operations-team-17
-  - namespace: operations-team-18
-  - namespace: operations-team-19
-  - namespace: operations-team-20
-  - namespace: operations-team-21
-  - namespace: operations-team-22
-  - namespace: operations-team-23
-  - namespace: operations-team-24
-  - namespace: operations-team-25
-  - namespace: operations-team-26
-  - namespace: operations-team-27
-  - namespace: operations-team-28
-  - namespace: operations-team-29
-  - namespace: operations-team-30
+    assignments:
+      - roleName: admin
+        groupId: ad53eca2-63a4-451b-8b51-7449e9bbf947
+      - roleName: view
+        groupId: 5f849728-3ef6-49ed-a275-8ff173e11e34
